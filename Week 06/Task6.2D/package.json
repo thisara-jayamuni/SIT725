@@ -1,0 +1,26 @@
+{
+  "name": "task6.2d",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Thisara Jayamuni",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "mongodb-memory-server": "^10.1.4",
+    "node-mocks-http": "^1.16.2",
+    "nodemon": "^3.1.9",
+    "sinon": "^20.0.0",
+    "supertest": "^7.1.0"
+  }
+}
